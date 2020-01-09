@@ -1,0 +1,315 @@
+@font-face{
+	font-family: 'Bellota-LightItalic';
+	src: url("../Bellota-LightItalic.otf");
+}
+
+
+@font-face{
+	font-family: 'Bellota-BoldItalic';
+	src: url("../Bellota-BoldItalic.otf");
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0; 
+	line-height: 17px;
+	background-color: #E6EAE8;
+}
+
+
+.top_bar{
+	width: 100%;
+	min-width: 1050px;
+	height: 54px;
+	background-color: #6d2db7;
+	/*background: #20aae5;*/
+	border-bottom: 0.25em solid #1894ca;
+	margin:0 10px 0 0;
+	display: inline-flex;
+
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.logo a{
+    font-family: 'Bellota-LightItalic', sans-serif;
+    left-margin: 10px;
+    text-shadow: #73B6E2 0.5px 0.5px 0px;
+    color: #1086BA;
+    top: 5px;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.login_name{
+	font-size: 24px;
+	margin: 14px 10px 20px 10px;
+   text-decoration: none;
+}
+
+
+
+
+nav {
+    position: absolute;
+    margin: 14px 10px 18px 10px;
+    float: right;
+    right: 5px;
+}
+
+nav a{
+	position: relative;
+	color: #fff;
+	font-size: 17px;
+	padding: 15px;
+}
+
+.profile_left{
+	 float: left;
+    max-width: 240px;
+    min-width: 130px;
+    width: 14%;
+    height: -webkit-fill-available;
+    background-color: #8dd5f5;
+    top: -10px;
+    position: relative;
+    border-right: 10px solid #56acd2;
+    margin-right: 20px;
+    color: #cbfae8;
+    z-index: -1;s
+}
+
+.profile_left img{
+	border: 5px solid #1894ca;
+    margin: 25px;
+    min-width: 80px;
+    width: 55%;
+    border-radius: 100%;
+}
+
+.profile_info p{
+	margin: 0 0 0 20px;
+	word-wrap: break-word;
+}
+
+.my_name{
+	margin: 5px 30px;
+    color: #1f58b1;
+    font-family: 'Bellota-LightItalic', sans-serif;
+    font-weight: bold;
+}
+
+.profile_complain_button{
+    border-radius: 25px;
+    padding: 0;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    left: -10px;
+    height: 34px;
+    border: none;
+
+}
+.profile_buttons{
+	margin-top: 20px;
+}
+button{
+	font-size: 20px;
+}
+
+
+#dept_card{
+  margin-top: 50px;
+}
+
+.card_list{
+	margin-top: 20px;
+	width: 70%;
+	float: right;
+	background-color: #E6EAE8;
+	margin-right: 90px;
+}
+
+.card_button{
+	border-radius: 25px;
+    padding: 0;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    left: -10px;
+    height: 34px;
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+
+  
+  .progressbar {
+      counter-reset: step;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 25%;
+      float: left;
+      font-size: 12px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: #7d7d7d;
+  }
+  .progressbar li:before {
+      width: 30px;
+      height: 30px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 30px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: white;
+  }
+  .progressbar li:after {
+      width: 100%;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #7d7d7d;
+      top: 15px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+      content: none;
+  }
+  .progressbar li.active {
+      color: green;
+  }
+  .progressbar li.active:before {
+      border-color: #55b776;
+  }
+  .progressbar li.active + li:after {
+      background-color: #55b776;
+  }
+
+  .complain_submit{
+    margin-right: 30px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: #3498db;
+    font-family: 'Bellota-LightItalic' , sans-serif;
+    color: #555555;
+    font-weight: bold;
+    text-shadow: #73B6E2 0.5px 0.5px 0px;
+    font-size: 120%;
+    margin-top: 10px;
+    outline: 0;
+
+
+  }
+
+  #upload_image{
+    text-align: center;
+    text-decoration-line: underline;
+    /*text-emphasis:filled;*/
+    font-family:'Comic Sans MS';
+    color:antiquewhite;
+    text-shadow:initial;
+    font-size:20px;
+    padding:0px 0px 0px 0px;
+  }
+
+
+/* ===========================DROP DOWN=================================*/
+
+
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: transparent; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+.wrapper-demo {
+    margin: 60px 0 0 0;
+    *zoom: 1;
+    font-weight: 400;
+}
+
+.wrapper-demo:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* DEMO 1 */
+
+.wrapper-dropdown-1 {
+    /* Size and position */
+    position: relative; /* Enable absolute positionning for children and pseudo elements */
+    width: 200px;
+    padding: 10px;
+   
+  margin-left: 0px;
+    margin-right: 0px;
+
+    /* Styles */
+    background: #9c27b0;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+
+    /* Font settings */
+    font-weight: bold;
+
+}
+
+.dropdown{
+      margin: 42px 0px 10px 0px;
+}
+#dropdownMenuLink{
+    background-color: #9c27b0;
+    color: #fff;
+}
+
+#building_input{
+  margin-top: 60px
+}
+
+input[type='text']{
+    border-radius: 7px;
+    border: none;
+    padding: 3px;
+}
+#complain_message{
+  border-radius: 5px;
+  padding: 5px;
+}

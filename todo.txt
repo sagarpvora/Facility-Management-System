@@ -1,0 +1,43 @@
+TODO:
+Department Files:
+depthome.php
+
+                <li class="nav-item active " href="./depthome.php">
+                    <a class="nav-link">
+                        <i class="material-icons">dashboard</i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./deptstatuscomplain.php?status=">
+                        <i class="material-icons">list_alt</i>
+                        <p>View Complains</p>
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./depthcancel.php">
+                        <i class="material-icons">cancel_presentation</i>
+                        <p>Cancel Complains</p>
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./deptdocomplain.php">
+                        <i class="material-icons">post_add</i>
+                        <p>Do Complain</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./deptmycomplain.php">
+                        <i class="material-icons">view_list</i>
+                        <p>My Complains</p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./deptreport.php">
+                        <i class="material-icons">content_paste</i>
+                        <p>Report</p>
+                    </a>
+                </li>
